@@ -1,0 +1,78 @@
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:arial;
+  }
+  
+  img{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+  }
+  
+  .grid-container{
+    width: 72%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .testimonials{
+    margin-bottom: 20px;
+  }
+  
+  
+  .container{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+  /*   max-width:500px; */
+  /*   margin:10px auto; */
+  }
+
+  .author-info .author-role p{
+    font-size: 0.9rem;
+    columns: red;
+  }
+
+  .author-info .author-role p.light{
+    font-size: 10px !important;
+  }
+
+  .bold{
+    color: #fff;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.light{
+    color: #ddd;
+    /* margin: 0; */
+    font-size: 0.9rem;
+  }
+
+  .special{
+    color: #000;
+  }
+
+  .author-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+
+  .author-info p{
+    margin: 0;
+  }
+  
+
+  .first{background: #7541C8; padding:40px; border-radius: 10px;  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+  .second{background: #48556A; padding:40px; border-radius: 10px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+  .third{background: #FFFFFF; padding:40px; border-radius: 10px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+  .four{background: #FFFFFF; padding:40px; border-radius: 10px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+  .five{background: #19212E; padding:40px; border-radius: 10px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+
+  
